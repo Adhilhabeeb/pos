@@ -5,10 +5,13 @@ import './index.css';
 
 // Register Service Worker for ultimate instant image caching & offline resilience
 if ("serviceWorker" in navigator) {
+  
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("/sw.js")
       .then(reg => console.log("SW registered", reg))
       .catch(err => console.log("SW failed", err));
+      caches.keys().then(console.log)
+      
   });
 }
 
