@@ -1,0 +1,10 @@
+{
+  "name": "Dailynest Pos",
+  "description": "AI Visual Billing System and Point of Sale Dashboard with real-time Firebase syncing, dynamic scanner experience, and beautiful animations.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
